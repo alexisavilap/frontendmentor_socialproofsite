@@ -1,0 +1,149 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.body {
+    padding: 7% 15%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: .9;
+    margin-bottom: 5%;
+    color: hsl(300, 43%, 22%);
+}
+
+h3 {
+    font-size: .9rem;
+    margin: 5% 0% 1%;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 8%;
+    color: hsl(333, 80%, 67%);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color:hsl(303, 10%, 53%)
+}
+
+/* Title */
+
+.title {
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 1280px) {
+    .title {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.rated-box {
+    position:relative;
+    margin-bottom: 10%;
+    
+}
+
+.rated {
+    position:relative;
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px 30px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+
+@media (max-width: 1280px) {
+    .rated {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .stars {
+        float:left;
+        margin-right: 8%;
+    }
+    #rated-2 {
+        left: 10%
+    }
+
+    #rated-3 {
+        left: 20%
+    }
+}
+
+/* Reviews */
+
+.review {
+    padding: 1%;
+}
+
+.review-block {
+    background-color: hsl(300, 43%, 22%);
+    color:#fff;
+    border-radius: 10px;
+    padding:10px 15px 0px;
+}
+
+.review-block p {
+    color: hsl(300, 24%, 96%);
+    line-height: 1.4;
+    font-size: .9rem;
+}
+
+.review img {
+    border-radius: 50%;
+    float:left;
+    width: 40px;
+    margin: 5% 5% 0% 0%;
+}
+
+/* Background images */
+
+.background-images {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-desktop {
+    position: absolute;
+    padding: 0;
+}
+
+.img-mobile {
+    position: absolute;
+    padding: 0;
+}
+
+.img-bottom {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media (max-width: 1280px) {
+    .img-desktop {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 1280px) {
+    .img-mobile {
+        visibility: hidden;
+    }
+}
